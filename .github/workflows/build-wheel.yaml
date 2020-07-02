@@ -29,6 +29,6 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         with:
           asset_content_type: application/octet-stream
-          asset_path: ${{ github.workspace }}/${{ github.event.repository.name }}/dist/elastic_apm-${{ github.event.release.tag_name }}-cp38-cp38-linux_x86_64.whl
-          asset_name: elastic_apm-${{ github.event.release.tag_name }}-cp38-cp38-linux_x86_64.whl
+          asset_path: ${{ github.workspace }}/${{ github.event.repository.name }}/dist/elastic_apm-${{ github.event.release.tag_name }}-py3-none-any.whl
+          asset_name: elastic_apm-${{ github.event.release.tag_name }}-py3-none-any.whl
           upload_url: ${{ github.event.release.upload_url }}
