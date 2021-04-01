@@ -1,1 +1,1 @@
-elastic-apm==6.0.0
+elastic-apm==6.1.0
